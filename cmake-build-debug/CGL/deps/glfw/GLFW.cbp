@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GLFW"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CGL\;CMake Files\CGL\deps\;CMake Files\CGL\deps\freetype\;CMake Files\CGL\deps\glew\;CMake Files\CGL\deps\glfw\;CMake Files\CGL\deps\glfw\src\;CMake Files\CGL\src\;CMake Files\..\;CMake Files\..\vcpkg\;CMake Files\..\vcpkg\scripts\;CMake Files\..\vcpkg\scripts\buildsystems\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Things/ComputerGraphics/hw_0/cmake-build-debug/CGL/deps/glfw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\Things\ComputerGraphics\hw_0\cmake-build-debug\CGL\deps\glfw\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Things\ComputerGraphics\hw_0\cmake-build-debug\CGL\deps\glfw\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Things\ComputerGraphics\hw_0\cmake-build-debug\CGL\deps\glfw\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Things\ComputerGraphics\hw_0\cmake-build-debug\CGL\deps\glfw\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="D:/Things/ComputerGraphics/hw_0/cmake-build-debug/CGL/deps/glfw/src/glfw3.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Things/ComputerGraphics/hw_0/cmake-build-debug/CGL/deps/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/include"/>
+					<Add directory="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src"/>
+					<Add directory="D:/Things/ComputerGraphics/hw_0/cmake-build-debug/CGL/deps/glfw/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\Things\ComputerGraphics\hw_0\cmake-build-debug\CGL\deps\glfw\src\Makefile VERBOSE=1 glfw"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Things\ComputerGraphics\hw_0\cmake-build-debug\CGL\deps\glfw\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Things\ComputerGraphics\hw_0\cmake-build-debug\CGL\deps\glfw\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Things\ComputerGraphics\hw_0\cmake-build-debug\CGL\deps\glfw\src\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="D:/Things/ComputerGraphics/hw_0/cmake-build-debug/CGL/deps/glfw/src/glfw3.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Things/ComputerGraphics/hw_0/cmake-build-debug/CGL/deps/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/include"/>
+					<Add directory="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src"/>
+					<Add directory="D:/Things/ComputerGraphics/hw_0/cmake-build-debug/CGL/deps/glfw/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\Things\ComputerGraphics\hw_0\cmake-build-debug\CGL\deps\glfw\src\Makefile VERBOSE=1 glfw/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Things\ComputerGraphics\hw_0\cmake-build-debug\CGL\deps\glfw\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Things\ComputerGraphics\hw_0\cmake-build-debug\CGL\deps\glfw\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Things\ComputerGraphics\hw_0\cmake-build-debug\CGL\deps\glfw\src\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/osmesa_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/wgl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/wgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/win32_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/win32_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/win32_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/win32_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/win32_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/win32_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/win32_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/win32_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/cmake-build-debug/CGL/deps/glfw/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CGL\"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/freetype/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CGL\deps\freetype\"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glew/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CGL\deps\glew\"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CGL\deps\glfw\"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CGL\deps\glfw\src\"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\CGL\deps\glfw\src\"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\CGL\deps\glfw\src\"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/deps/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\CGL\deps\glfw\src\"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/CGL/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CGL\src\"/>
+		</Unit>
+		<Unit filename="D:/Things/ComputerGraphics/hw_0/../vcpkg/scripts/buildsystems/vcpkg.cmake">
+			<Option virtualFolder="CMake Files\..\vcpkg\scripts\buildsystems\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
